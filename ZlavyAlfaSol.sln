@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32106.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZlavyAlfa", "ZlavyAlfa\ZlavyAlfa.csproj", "{58D8DE6E-B18A-4D56-B684-C6AE28E4A5A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZlavyAlfaTests", "ZlavyAlfaTests\ZlavyAlfaTests.csproj", "{1CF845FE-7362-430B-BB13-3F53724DE8CF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{58D8DE6E-B18A-4D56-B684-C6AE28E4A5A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58D8DE6E-B18A-4D56-B684-C6AE28E4A5A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58D8DE6E-B18A-4D56-B684-C6AE28E4A5A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58D8DE6E-B18A-4D56-B684-C6AE28E4A5A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CF845FE-7362-430B-BB13-3F53724DE8CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CF845FE-7362-430B-BB13-3F53724DE8CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CF845FE-7362-430B-BB13-3F53724DE8CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CF845FE-7362-430B-BB13-3F53724DE8CF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5CEC4E26-71C1-4B8E-8B8B-FC0E6F65FBE6}
+	EndGlobalSection
+EndGlobal
