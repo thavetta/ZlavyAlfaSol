@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace ZlavyAlfa
 {
-    public class SazbaDPH : List<decimal>
+    public class SadzbaDPH : List<decimal>
     {
-        public SazbaDPH()
+        public SadzbaDPH()
         {
             Add(0M);
             Add(1.1M);

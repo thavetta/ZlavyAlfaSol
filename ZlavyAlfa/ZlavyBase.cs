@@ -19,7 +19,21 @@ namespace ZlavyAlfa
         }
         public decimal Mnozstvo { get; set; }
         public int KodDPH { get; set; }
-        public int Poradie { get; set; }
+        public string TextUI { get; set; }
+        public string TextPOS { get; set; }
+
+        private int poradie;
+
+        public int Poradie
+        {
+            get => poradie;
+            set
+            {
+                if (value < 1)
+                    throw new ArgumentOutOfRangeException("Poradie", "Poradie nesmie byť menšie než 1");
+                poradie = value;
+            }
+        }
 
         
     }

@@ -8,6 +8,14 @@ namespace ZlavyAlfa
 {
     public class ZakladCeny : ZlavyBase
     {
-        
+        public ZakladCeny()
+        {
+            this.Poradie = 1;
+        }
+
+        public override string ToString()
+        {
+            return TextUI + " - " + ZakladnaJednotkovaCenaBezDPH;
+        }
     }
 }
